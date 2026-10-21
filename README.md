@@ -1,32 +1,74 @@
-# React + TypeScript + Vite
+# GM Moto Peças
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+E-commerce demonstrativo de peças e acessórios para motocicletas, desenvolvido como projeto de estudo para praticar desenvolvimento web.
 
-Currently, two official plugins are available:
+**Acesse o projeto:** https://gm-moto-pecas.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sobre o projeto
 
-## React Compiler
+O GM Moto Peças é uma aplicação web que simula a experiência de navegação em uma loja virtual de motopeças. O objetivo é praticar a construção de interfaces, a organização de componentes e o desenvolvimento de funcionalidades comuns em um e-commerce.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este é um projeto fictício para fins educacionais. Não representa uma loja comercial real e não processa pagamentos reais.
 
-## Expanding the Oxlint configuration
+## Tecnologias utilizadas
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- HTML e CSS
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## Funcionalidades
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- Página inicial com destaques e ofertas demonstrativas
+- Catálogo e visualização de produtos
+- Navegação por categorias
+- Carrinho de compras demonstrativo
+- Páginas informativas e de contato
+- Interface responsiva
+- Aviso de privacidade e cookies
+
+*As funcionalidades podem ter limitações, pois o projeto é demonstrativo e não possui necessariamente um backend para processar pedidos reais.*
+
+## Como executar localmente
+
+Pré-requisitos: Node.js e npm instalados.
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/MaguilaN1/gm-moto-pecas.git
+   ```
+
+2. Entre na pasta:
+
+   ```bash
+   cd gm-moto-pecas
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Abra no navegador o endereço local exibido no terminal.
+
+## Objetivo de aprendizado
+
+Este projeto faz parte do meu aprendizado em desenvolvimento de software e tem como objetivo praticar React, TypeScript, organização de código, Git, GitHub e publicação de aplicações web.
+
+## Links
+
+- **Aplicação publicada:** https://gm-moto-pecas.vercel.app/
+- **Repositório:** https://github.com/MaguilaN1/gm-moto-pecas
+
+---
+
+Projeto educacional desenvolvido para fins de estudo e portfólio.
