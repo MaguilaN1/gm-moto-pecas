@@ -69,6 +69,9 @@ Este projeto faz parte do meu aprendizado em desenvolvimento de software e tem c
 - **Aplicação publicada:** https://gm-moto-pecas.vercel.app/
 - **Repositório:** https://github.com/MaguilaN1/gm-moto-pecas
 
+- <img width="1861" height="929" alt="image" src="https://github.com/user-attachments/assets/b7ab73a1-a4d5-4781-a85d-d0d5a3ee65a1" />
+
+
 ---
 
 Projeto educacional desenvolvido para fins de estudo e portfólio.
